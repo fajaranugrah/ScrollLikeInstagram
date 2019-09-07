@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ScrollLikeInstagram</string>
+
+    <string name="emoji_talk_to_support">👩‍💻</string>
+    <string name="emoji_payment_account">💰</string>
+    <string name="emoji_my_pets">🐕</string>
+    <string name="emoji_my_favorites">💛</string>
+    <string name="emoji_my_rewards">🏆</string>
+    <string name="emoji_my_badges">🏅</string>
+</resources>

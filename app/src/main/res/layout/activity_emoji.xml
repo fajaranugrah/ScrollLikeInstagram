@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/background_chat"
+    tools:context=".MainActivity"
+    >
+
+    <android.support.text.emoji.widget.EmojiAppCompatTextView
+        android:id="@+id/support"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/petbacker_accent_color"
+        app:fontFamily="sans-serif" />
+
+    <android.support.text.emoji.widget.EmojiAppCompatTextView
+        android:layout_below="@+id/support"
+        android:id="@+id/money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/petbacker_accent_color" />
+
+    <android.support.text.emoji.widget.EmojiAppCompatTextView
+        android:layout_below="@+id/money"
+        android:id="@+id/pets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/petbacker_accent_color"/>
+
+    <TextView
+        android:layout_below="@+id/pets"
+        android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <hani.momanii.supernova_emoji_library.Helper.EmojiconTextView
+        android:id="@+id/supernova"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@color/background_chat"
+    android:orientation="vertical">
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/display_date_receive_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/transparent_gray"
+        android:gravity="center"
+        android:minWidth="100dp"
+        android:padding="5dp"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="@color/gray"
+        android:textSize="12sp" />
+
+    <!-- For self message -->
+    <TextView
+        android:id="@+id/display_name_receive_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="#00FFFFFF"
+        android:gravity="start"
+        android:minWidth="100dp"
+        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:paddingRight="5dp"
+        android:paddingEnd="5dp"
+        android:text=""
+        android:textColor="@color/gray"
+        android:textSize="12sp" />
+    <LinearLayout
+        tools:targetApi="lollipop"
+        android:background="@drawable/blue_message_bubble"
+        android:layout_gravity="start"
+        android:layout_margin="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:paddingEnd="5dp"
+            android:paddingLeft="20dp"
+            android:paddingStart="20dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/play_button"
+                    android:elevation="3dp"/>
+                <VideoView
+                    android:id="@+id/videoViewMessageReceive"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/default_loader"
+                    tools:ignore="ContentDescription" />
+            </RelativeLayout>
+
+            <TextView
+                android:padding="5dp"
+                android:id="@+id/textViewTimeReceiveVideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:layout_gravity="end"
+                android:text="2.00 pm"
+                android:textColor="@color/multiple_image_select_imageSelectBackground"
+                android:textSize="12sp"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

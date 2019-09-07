@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="petbacker_accent_color">#9b88b8</color>
+    <color name="white">#ffffffff</color>
+    <color name="multiple_image_select_imageSelectBackground">#000000</color>
+    <color name="background_chat">#EFEFF4</color>
+    <color name="transparent_gray">#BFf4f4f4</color>
+    <color name="gray">#ff808080</color>
+    <color name="chat_sender_bubble_color">#DAF7CA</color>
+    <color name="chat_recipient_bubble_color">#FFFFFF</color>
+    <color name="black">#ff000000</color>
+    <color name="green_normal">#39b54a</color>
+</resources>
